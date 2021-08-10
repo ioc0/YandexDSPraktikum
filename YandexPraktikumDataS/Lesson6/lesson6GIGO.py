@@ -31,3 +31,4 @@ new_names = ['user_id',
 df.set_axis(new_names,axis='columns',inplace=True)
 
 print(df.columns)
+print(df.head(10))
